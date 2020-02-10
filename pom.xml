@@ -215,6 +215,14 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.rapidpm</groupId>
+      <artifactId>rapidpm-logger-adapter</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.rapidpm</groupId>
+      <artifactId>rapidpm-functional-reactive</artifactId>
+    </dependency>
+    <dependency>
       <groupId>com.vaadin</groupId>
       <artifactId>flow-server</artifactId>
     </dependency>
@@ -259,13 +267,6 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>versions-maven-plugin</artifactId>
-        <configuration>
-          <rulesUri>file://${maven.multiModuleProjectDirectory}/version-number-rules.xml</rulesUri>
-        </configuration>
       </plugin>
     </plugins>
   </build>
