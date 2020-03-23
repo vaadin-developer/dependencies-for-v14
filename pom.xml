@@ -31,7 +31,7 @@
   <groupId>org.rapidpm.vaadin</groupId>
   <artifactId>rapidpm-vaadin-dependencies-v14</artifactId>
   <packaging>pom</packaging>
-  <version>05.00.00-alpha</version>
+  <version>05.00.01</version>
 
   <inceptionYear>2018</inceptionYear>
   <organization>
