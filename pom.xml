@@ -79,7 +79,7 @@
     <!--technical-->
     <jdk.version>1.8</jdk.version>
 
-    <vaadin-v14.version>14.1.20</vaadin-v14.version>
+    <vaadin-v14.version>14.1.17</vaadin-v14.version>
     <vaadin-testbench-v14.version>6.2.1</vaadin-testbench-v14.version>
 
     <vaadin-productionMode>false</vaadin-productionMode>
@@ -87,7 +87,7 @@
     <frontend-maven-plugin.nodeVersion>v12.13.0</frontend-maven-plugin.nodeVersion>
     <frontend-maven-plugin.npmVersion>6.12.0</frontend-maven-plugin.npmVersion>
     <!--    <frontend-maven-plugin.installDirectory>target</frontend-maven-plugin.installDirectory>-->
-    <frontend-maven-plugin.npmRegistryURL>http://jfrog-repo.sven-ruppert.de:8081/artifactory/api/npm/npm-release/
+    <frontend-maven-plugin.npmRegistryURL>http://jfrog-repo.sven-ruppert.de:8081/artifactory/api/npm/npm/
     </frontend-maven-plugin.npmRegistryURL>
   </properties>
 
