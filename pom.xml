@@ -84,11 +84,11 @@
 
     <vaadin-productionMode>false</vaadin-productionMode>
     <vaadin-install-nodejs>false</vaadin-install-nodejs>
-    <frontend-maven-plugin.nodeVersion>v12.13.0</frontend-maven-plugin.nodeVersion>
-    <frontend-maven-plugin.npmVersion>6.12.0</frontend-maven-plugin.npmVersion>
-    <!--    <frontend-maven-plugin.installDirectory>target</frontend-maven-plugin.installDirectory>-->
+    <frontend-maven-plugin.nodeVersion>v13.11.0</frontend-maven-plugin.nodeVersion>
     <frontend-maven-plugin.npmRegistryURL>http://jfrog-repo.sven-ruppert.de:8081/artifactory/api/npm/npm/
     </frontend-maven-plugin.npmRegistryURL>
+    <frontend-maven-plugin.nodeDownloadRoot>${frontend-maven-plugin.npmRegistryURL}dist/
+    </frontend-maven-plugin.nodeDownloadRoot>
   </properties>
 
   <repositories>
@@ -247,6 +247,12 @@
   <build>
     <pluginManagement>
       <plugins>
+        <!--      WebDevelopment-->
+        <plugin>
+          <groupId>com.github.eirslett</groupId>
+          <artifactId>frontend-maven-plugin</artifactId>
+          <version>1.9.1</version>
+        </plugin>
         <plugin>
           <groupId>com.github.webdriverextensions</groupId>
           <artifactId>webdriverextensions-maven-plugin</artifactId>
@@ -303,10 +309,9 @@
               <npmRegistryURL>${frontend-maven-plugin.npmRegistryURL}</npmRegistryURL>
               <nodeVersion>${frontend-maven-plugin.nodeVersion}</nodeVersion>
               <!-- optional: with node version greater than 4.0.0 will use npm provided by node distribution -->
-              <npmVersion>${frontend-maven-plugin.npmVersion}</npmVersion>
-              <!-- optional: where to download node and npm from. Defaults to https://nodejs.org/dist/ -->
-              <downloadRoot>${frontend-maven-plugin.npmRegistryURL}</downloadRoot>
-              <installDirectory>${frontend-maven-plugin.installDirectory}</installDirectory>
+<!--              <npmVersion>${frontend-maven-plugin.npmVersion}</npmVersion>-->
+              <nodeDownloadRoot>${frontend-maven-plugin.npmRegistryURL}</nodeDownloadRoot>
+<!--              <installDirectory>${frontend-maven-plugin.installDirectory}</installDirectory>-->
             </configuration>
           </plugin>
         </plugins>
