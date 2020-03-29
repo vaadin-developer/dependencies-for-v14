@@ -25,7 +25,7 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.07.01-110</version>
+    <version>04.07.01-107</version>
   </parent>
 
   <groupId>org.rapidpm.vaadin</groupId>
@@ -218,7 +218,7 @@
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-functional-reactive</artifactId>
-      <version>01.00.07-106</version>
+      <version>01.00.07-108</version>
     </dependency>
     <dependency>
       <groupId>org.rapidpm</groupId>
