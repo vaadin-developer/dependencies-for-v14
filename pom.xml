@@ -25,7 +25,7 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.07.01-128</version>
+    <version>04.07.01-129</version>
   </parent>
 
   <groupId>org.rapidpm.vaadin</groupId>
@@ -218,12 +218,12 @@
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-functional-reactive</artifactId>
-      <version>01.00.07-122</version>
+      <version>01.00.07-137</version>
     </dependency>
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-logger-adapter</artifactId>
-      <version>01.00.10-111-112-113-115</version>
+      <version>01.00.10-111-112-113-115-116-117-118</version>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>
