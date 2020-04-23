@@ -223,7 +223,7 @@
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-logger-adapter</artifactId>
-      <version>01.00.10-109</version>
+      <version>01.00.10-110</version>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>
