@@ -25,7 +25,7 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.07.01-107</version>
+    <version>04.07.01-114-115</version>
   </parent>
 
   <groupId>org.rapidpm.vaadin</groupId>
@@ -138,7 +138,7 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-bom</artifactId>
-        <version>${vaadin-v14.version}</version>
+        <version>15.0.3</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -146,7 +146,7 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench</artifactId>
-        <version>${vaadin-v14.version}</version>
+        <version>15.0.3</version>
         <exclusions>
           <exclusion>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -162,7 +162,7 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench-core</artifactId>
-        <version>${vaadin-testbench-v14.version}</version>
+        <version>6.2.1</version>
         <exclusions>
           <exclusion>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -223,7 +223,7 @@
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-logger-adapter</artifactId>
-      <version>01.00.10-108</version>
+      <version>01.00.10-109</version>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>
