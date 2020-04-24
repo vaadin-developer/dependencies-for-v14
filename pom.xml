@@ -79,7 +79,7 @@
     <!--technical-->
     <jdk.version>1.8</jdk.version>
 
-    <vaadin-v14.version>14.1.17</vaadin-v14.version>
+    <vaadin-v14.version>14.1.25</vaadin-v14.version>
     <vaadin-testbench-v14.version>6.2.1</vaadin-testbench-v14.version>
 
     <vaadin-productionMode>false</vaadin-productionMode>
@@ -218,7 +218,7 @@
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-functional-reactive</artifactId>
-      <version>01.00.07-140</version>
+      <version>01.00.07-141</version>
     </dependency>
     <dependency>
       <groupId>org.rapidpm</groupId>
