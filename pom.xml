@@ -25,13 +25,13 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.07.05-134</version>
+    <version>04.07.04-RPM</version>
   </parent>
 
   <groupId>org.rapidpm.vaadin</groupId>
   <artifactId>rapidpm-vaadin-dependencies-v14</artifactId>
   <packaging>pom</packaging>
-  <version>05.00.01</version>
+  <version>05.00.02</version>
 
   <inceptionYear>2018</inceptionYear>
   <organization>
