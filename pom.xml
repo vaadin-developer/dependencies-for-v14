@@ -25,7 +25,7 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.07.05-134</version>
+    <version>04.07.04-RPM</version>
   </parent>
 
   <groupId>org.rapidpm.vaadin</groupId>
@@ -80,7 +80,7 @@
     <jdk.version>1.8</jdk.version>
 
     <vaadin-v14.version>14.3.1</vaadin-v14.version>
-    <vaadin-testbench-v14.version>6.2.1</vaadin-testbench-v14.version>
+    <vaadin-testbench-v14.version>6.2.2</vaadin-testbench-v14.version>
 
     <vaadin-productionMode>false</vaadin-productionMode>
     <vaadin-install-nodejs>false</vaadin-install-nodejs>
@@ -138,7 +138,7 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-bom</artifactId>
-        <version>16.0.0</version>
+        <version>${vaadin-v14.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -146,7 +146,7 @@
       <dependency>
         <groupId>com.vaadin</groupId>
         <artifactId>vaadin-testbench</artifactId>
-        <version>16.0.0</version>
+        <version>${vaadin-v14.version}</version>
         <exclusions>
           <exclusion>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -218,12 +218,12 @@
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-functional-reactive</artifactId>
-      <version>01.00.07-145</version>
+      <version>01.00.07-RPM</version>
     </dependency>
     <dependency>
       <groupId>org.rapidpm</groupId>
       <artifactId>rapidpm-logger-adapter</artifactId>
-      <version>01.00.11-128</version>
+      <version>01.00.10-RPM</version>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>
